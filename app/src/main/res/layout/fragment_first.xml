@@ -54,17 +54,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ice_cream" />
 
-    <Button
-        android:id="@+id/button_first"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/next"
-        android:layout_marginLeft="170dp"
-        android:layout_marginTop="@dimen/horizontal_margin"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/froyo" />
-
     <TextView
         android:id="@+id/donut_description"
         android:layout_width="0dp"
