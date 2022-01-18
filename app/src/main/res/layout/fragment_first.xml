@@ -91,4 +91,15 @@
         app:layout_constraintStart_toEndOf="@+id/froyo"
         app:layout_constraintTop_toTopOf="@+id/froyo" />
 
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn SEnd Data"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

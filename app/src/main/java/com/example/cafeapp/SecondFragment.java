@@ -36,6 +36,10 @@ public class SecondFragment extends Fragment {
                         .navigate(R.id.action_SecondFragment_to_FirstFragment);
             }
         });
+
+        // getting data from firstFragment using safe args
+        String orderedThing = SecondFragmentArgs.fromBundle(getArguments()).getOrdered();
+        binding.txtvShowingOrder.setText(orderedThing);
     }
 
     @Override

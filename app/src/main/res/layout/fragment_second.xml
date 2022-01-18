@@ -20,10 +20,10 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textview_second"
+        android:id="@+id/txtvShowingOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="chutiya nahi hu me"
+        android:text=""
         android:textStyle="bold"
         android:textSize="18dp"
         android:textColor="@color/purple_500"

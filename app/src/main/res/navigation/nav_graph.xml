@@ -13,8 +13,14 @@
 
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            app:destination="@id/SecondFragment">
+            <argument
+                android:name="ordered"
+                app:argType="string"
+                app:nullable="true"/>
+        </action>
     </fragment>
+
     <fragment
         android:id="@+id/SecondFragment"
         android:name="com.example.cafeapp.SecondFragment"
@@ -24,5 +30,9 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <argument
+            android:name="ordered"
+            app:argType="string"
+            app:nullable="true" />
     </fragment>
 </navigation>
