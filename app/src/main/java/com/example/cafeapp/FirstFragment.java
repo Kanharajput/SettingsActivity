@@ -19,7 +19,7 @@ public class FirstFragment extends Fragment {
     // Binding is done for each layout and it's name is according to layout name and have a suffix Binding at last
 
     private FragmentFirstBinding binding;
-    private String order ;
+    private static String order ;
 
     @Override
     public View onCreateView(
@@ -59,7 +59,7 @@ public class FirstFragment extends Fragment {
         // we have add plugin and class path in build files and clsses like FirstFragmentDirections and others automatically added
         // see documentation pass data between destinations -> https://developer.android.com/guide/navigation/navigation-pass-data
         // we can also do this via Bundles
-        binding.sendButton.setOnClickListener(new View.OnClickListener() {
+        binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FirstFragmentDirections.ActionFirstFragmentToSecondFragment action = FirstFragmentDirections.actionFirstFragmentToSecondFragment(order);

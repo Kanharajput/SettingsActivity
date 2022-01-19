@@ -2,8 +2,6 @@ package com.example.cafeapp;
 
 import android.os.Bundle;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
@@ -39,15 +37,6 @@ public class MainActivity extends AppCompatActivity {
         // and also enable top back button onSupportNavigationUp() method is for that see in below code
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
-
-        binding.fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                navController.navigate(R.id.action_FirstFragment_to_SecondFragment);
-//                Snackbar.make(view, "Akhir mene ker diya", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-            }
-        });
     }
 /*
 // below all  code is related to the menu and options select in menu then what to do
