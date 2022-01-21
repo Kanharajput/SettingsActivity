@@ -1,0 +1,35 @@
+[33mcommit f98e579aa4a63eb7b4c505432c86c2952a3ce488[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Kanha Tomar <kanharajput91@gmail.com>
+Date:   Wed Jan 19 09:54:43 2022 +0530
+
+    Sending to another fragment via FAB
+
+[33mcommit c813f98d25a9179fb493ebb608ea9e19ce4af7db[m
+Author: Kanha Tomar <kanharajput91@gmail.com>
+Date:   Tue Jan 18 11:08:23 2022 +0530
+
+    Send data to destination using safe-args
+
+[33mcommit 871b7593f7e8540e491348fbc151164014b40df2[m
+Author: Kanha Tomar <kanharajput91@gmail.com>
+Date:   Mon Jan 17 17:23:25 2022 +0530
+
+    second fragment layout set
+
+[33mcommit 1c7c72ad786f3f538b24b1aa385250023cce4190[m
+Author: Kanha Tomar <kanharajput91@gmail.com>
+Date:   Mon Jan 17 16:46:36 2022 +0530
+
+    fab button launches second fragment
+
+[33mcommit 84e9f5c457575586eaf257ad775b7a58e4dd6ba4[m
+Author: Kanha Tomar <kanharajput91@gmail.com>
+Date:   Mon Jan 17 12:36:38 2022 +0530
+
+    changed icon of FAB
+
+[33mcommit b55d90042682912188e307dd12801acb996d9b08[m
+Author: Kanha Tomar <kanharajput91@gmail.com>
+Date:   Sun Jan 16 19:44:05 2022 +0530
+
+    BasicActivity with Fragments and clickable images

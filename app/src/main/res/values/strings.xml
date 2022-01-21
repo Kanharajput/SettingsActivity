@@ -11,7 +11,7 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="intro_text">Dessert</string>
     <string name="about_donut">Donuts are glazed and sprinkled with candy.</string>
-    <string name="about_icecream">Ice cream sandwiches have chocolate wafers and vanilla filling.</string>
+    <string name="about_icecream">Ice cream sandwiches have chocolate wafers and \n vanilla filling.</string>
     <string name="about_froyo">FroYo is premium self-serve frozen yogurt.</string>
 
     <string name="donut_order_message">You ordered a donut.</string>

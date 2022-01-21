@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/drawable-anydpi/ic_shopping_cart.xml" value="0.21302083333333333" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.21302083333333333" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/layout/activity_main.xml" value="0.37592592592592594" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/layout-land/activity_main.xml" value="0.33094812164579607" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/layout-land/fragment_first.xml" value="0.67" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/layout/activity_main.xml" value="0.35960591133004927" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/layout/content_main.xml" value="0.22" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/layout/fragment_first.xml" value="0.22" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/layout/fragment_first.xml" value="0.33" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/layout/fragment_second.xml" value="0.18" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/CafeApp/app/src/main/res/menu/menu_main.xml" value="0.19270833333333334" />
       </map>
