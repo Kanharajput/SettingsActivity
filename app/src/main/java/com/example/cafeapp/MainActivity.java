@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity {
         appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph()).build();
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
     }
-/*
 // below all  code is related to the menu and options select in menu then what to do
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -61,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-*/
     // This method's functionality is for back arrow button in AppBar
     @Override
     public boolean onSupportNavigateUp() {
