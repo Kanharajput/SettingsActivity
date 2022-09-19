@@ -4,12 +4,19 @@
         app:fragment="com.example.cafeapp.SettingsActivity$MessagesFragment"
         app:icon="@drawable/messages"
         app:key="messages_header"
-        app:title="@string/messages_header" />
+        app:title="@string/pref_messages_header" />
+
+    <!--app:fragment will add the fragment class which handle it-->
+    <Preference
+        app:fragment="com.example.cafeapp.SettingsActivity$AccountFragment"
+        app:icon="@drawable/account"
+        app:key="account_header"
+        app:title="@string/pref_account_header" />
 
     <Preference
         app:fragment="com.example.cafeapp.SettingsActivity$SyncFragment"
         app:icon="@drawable/sync"
         app:key="sync_header"
-        app:title="@string/sync_header" />
+        app:title="@string/pref_sync_header" />
 
 </PreferenceScreen>

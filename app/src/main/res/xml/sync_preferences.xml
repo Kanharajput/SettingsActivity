@@ -1,4 +1,6 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <SwitchPreferenceCompat
         app:key="sync"
@@ -10,5 +12,6 @@
         app:summaryOff="@string/attachment_summary_off"
         app:summaryOn="@string/attachment_summary_on"
         app:title="@string/attachment_title" />
+
 
 </PreferenceScreen>
